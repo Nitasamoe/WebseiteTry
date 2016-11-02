@@ -1,0 +1,78 @@
+/* General ----------------------------------------------------------- */
+html {
+  background-color: rgb(30,30,30);
+  color:rgb(30,30,30);
+  margin:0;
+  padding:0;
+}
+body {
+  padding:0;
+  margin:0;
+}
+/* Sections ---------------------------------------------------------- */
+#partName {
+  height: 700px;
+  background-color: rgb(210,210,210);
+  position: relative;
+}
+#partName h1{
+  margin-top: 0px;
+  padding-top: 15%;
+  position: absolute;
+  left:40.5%;
+}
+                /* Backblock --------------------------------------------------------- */
+                .backBlock {
+                  background-color: rgb(30,30,30);
+                  width:100%;
+                  height:100%;
+                  position:absolute;
+                  display: inline;
+                  top:0;
+                  z-index: 0;
+                  }
+#partDesigner{
+  position: relative;
+  height: 350px;
+  text-align: center;
+  background-color: rgb(220,70,60);
+}
+#partDesigner h2{
+  padding-top:10%;
+  margin-right: 30%;
+}
+#partDesigner h1 {
+  margin-top: 5px;
+}
+#crossLine {
+  width: 20%;
+}
+/* Text -------------------------------------------------------------- */
+html {
+  font-family: "Vollkorn";
+}
+h1 {
+  font-family: "Share Tech Mono";
+  font-size: 38px;
+  text-align: center;
+  z-index: 10;
+}
+h2 {
+  font-size: 30px;
+  font-family: "Share Tech Mono";
+  padding: 0px;
+  margin:0px;
+}
+h3 {
+  font-size: 14px;
+  padding: 0px;
+  margin:0px;
+}
+.colorGrey {
+  color:rgb(210,210,210)
+}
+
+/* parrallax --------------------------------------------------------- */
+#parrallax {
+  height: 1900px;
+}
