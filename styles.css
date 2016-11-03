@@ -32,9 +32,6 @@ body {
                   z-index: 0;
                   }
 #partDesigner{
-  position: relative;
-  height: 350px;
-  text-align: center;
   background-color: rgb(220,70,60);
 }
 #partDesigner h2{
@@ -47,6 +44,23 @@ body {
 #crossLine {
   width: 20%;
 }
+#partPeopleOne {
+  background-color: rgb(130,130,150);
+  position: relative;
+}
+                #partPeopleOne h2 {
+                    padding-top: 10%;
+                }
+                #partPeopleOne #appearOne {
+                    padding-top: 0%;
+                    margin-top: 0%;
+                }
+                #partPeopleOne .letter {
+                    margin:0px;
+                    padding: 0px;
+                    display:inline;
+                    position: absolute;
+                }
 /* Text -------------------------------------------------------------- */
 html {
   font-family: "Vollkorn";
@@ -71,7 +85,12 @@ h3 {
 .colorGrey {
   color:rgb(210,210,210)
 }
-
+/* sections ---------------------------------------------------------- */
+.sectionA {
+    height: 400px;
+    position: relative;
+    text-align: center;
+}
 /* parrallax --------------------------------------------------------- */
 #parrallax {
   height: 1900px;
